@@ -11,5 +11,8 @@
 
     <artifactId>lbj-annotation</artifactId>
 
+    <modules>
+        <module>lbj-annotation-v1</module>
+    </modules>
 
 </project>
