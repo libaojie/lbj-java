@@ -6,5 +6,5 @@
     
     研究步骤分为三个阶段
     1、基础Demo   lbj-annotation-v1
-    2、独立封jar
+    2、标签和源代码进行拆离 lbj-annotation-v2
     3、集成idea
