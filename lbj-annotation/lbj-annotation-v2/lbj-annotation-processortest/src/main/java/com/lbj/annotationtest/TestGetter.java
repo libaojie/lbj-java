@@ -1,4 +1,7 @@
-package com.lbj.annotation;
+package com.lbj.annotationtest;
+
+
+import com.lbj.annotation.CheckGetter;
 
 @CheckGetter
 public class TestGetter {
