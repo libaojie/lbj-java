@@ -1,4 +1,4 @@
-package com.lbj.thread;
+package com.lbj.thread1;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
