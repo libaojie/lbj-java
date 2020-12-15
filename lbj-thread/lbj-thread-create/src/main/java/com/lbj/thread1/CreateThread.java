@@ -1,8 +1,6 @@
 package com.lbj.thread1;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.FutureTask;
+import java.util.concurrent.*;
 
 /**
  * @Classname CreateThread
@@ -13,12 +11,17 @@ import java.util.concurrent.FutureTask;
 public class CreateThread {
     public static void main(String[] args) {
 
+        // 启动线程共五种方式
+
 //        CreateThread.threadDemo();
 //        CreateThread.runnableDemo();
         CreateThread.callableDemo();
     }
 
 
+    /**
+     * 第一种：通过继承Thread 直接创建
+     */
     private static void threadDemo() {
 
         ThreadDemo threadDemo = new ThreadDemo();
@@ -26,10 +29,16 @@ public class CreateThread {
 
     }
 
-    private static void runnableDemo(){
+    /**
+     * 第二种：通过实现Runnable 再包装Thread实现
+     */
+    private static void runnableDemo() {
         new Thread(new RunnableDemo()).start();
     }
 
+    /**
+     * 第三种：通过实现Callable 再包装Thread可实现有返回值的线程
+     */
     private static void callableDemo() {
         CallableDamo callableDamo = new CallableDamo();
         FutureTask<Integer> futureTask = new FutureTask<Integer>(callableDamo);
@@ -42,6 +51,26 @@ public class CreateThread {
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
+    }
+
+    /**
+     * 第四种：匿名函数方式
+     */
+    private static void anonymityDemo() {
+        new Thread(() -> {
+            System.out.println("创建线程");
+        }).start();
+    }
+
+    /**
+     * 第五种：线程池方式
+     */
+    private static void threadPoolDemo(){
+        ExecutorService service = Executors.newCachedThreadPool();
+        service.execute(()->{
+            System.out.println("创建线程");
+        });
+        service.shutdown();
     }
 
 }

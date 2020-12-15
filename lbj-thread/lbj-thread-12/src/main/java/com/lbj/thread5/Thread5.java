@@ -4,10 +4,7 @@ package com.lbj.thread5;
  * 三个线程 轮询
  */
 
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.LockSupport;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class Thread5 extends Thread {
 
@@ -15,7 +12,7 @@ public class Thread5 extends Thread {
     private volatile Thread5 next;
     private static int cnt = 0;
 
-    private static Lock lock = new ReentrantLock();
+//    private static Lock lock = new ReentrantLock();
 
 //    // 这时候lock中condition的优势就体现出来了，它可以通过设置不同的condition来实现不同线程的精确唤醒
 //    private static Condition condition1 = lock.newCondition();
