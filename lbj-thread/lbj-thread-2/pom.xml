@@ -3,20 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>lbj-java</artifactId>
+        <artifactId>lbj-thread</artifactId>
         <groupId>com.lbj</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lbj-thread</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>lbj-thread-create</module>
-        <module>lbj-thread-12</module>
-        <module>lbj-threadpool-create</module>
-        <module>lbj-thread-2</module>
-    </modules>
+    <artifactId>lbj-thread-2</artifactId>
 
 
 </project>
