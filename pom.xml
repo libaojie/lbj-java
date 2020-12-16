@@ -14,6 +14,7 @@
         <module>lbj-annotation</module>
         <module>lbj-proxy</module>
         <module>lbj-thread</module>
+        <module>lbj-synchronized</module>
     </modules>
 
 
