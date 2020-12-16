@@ -15,6 +15,7 @@
         <module>lbj-proxy</module>
         <module>lbj-thread</module>
         <module>lbj-synchronized</module>
+        <module>lbj-volatile</module>
     </modules>
 
 
