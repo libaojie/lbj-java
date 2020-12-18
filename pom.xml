@@ -16,6 +16,7 @@
         <module>lbj-thread</module>
         <module>lbj-synchronized</module>
         <module>lbj-volatile</module>
+        <module>lbj-cas</module>
     </modules>
 
 
