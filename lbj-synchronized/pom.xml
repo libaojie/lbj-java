@@ -15,6 +15,7 @@
     <modules>
         <module>lbj-synchronized-1</module>
         <module>lbj-synchronized-2</module>
+        <module>lbj-synchronized-3</module>
     </modules>
 
 </project>
