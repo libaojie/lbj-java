@@ -17,6 +17,7 @@
         <module>lbj-synchronized</module>
         <module>lbj-volatile</module>
         <module>lbj-cas</module>
+        <module>lbj-regular-expression</module>
     </modules>
 
 
