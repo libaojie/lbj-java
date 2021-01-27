@@ -18,6 +18,8 @@
         <module>lbj-volatile</module>
         <module>lbj-cas</module>
         <module>lbj-regular-expression</module>
+        <module>lbj.minispring</module>
+        <module>lbj-minispring</module>
     </modules>
 
 
