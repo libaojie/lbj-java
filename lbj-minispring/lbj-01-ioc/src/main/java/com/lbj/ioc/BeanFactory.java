@@ -1,4 +1,4 @@
-package com.lbj.beanfactory;
+package com.lbj.ioc;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

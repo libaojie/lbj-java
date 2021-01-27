@@ -12,8 +12,19 @@
     <artifactId>lbj-minispring</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>lbj-01-beanfactory</module>
+        <module>lbj-01-ioc</module>
+        <module>lbj-02-ioc</module>
     </modules>
 
+
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.7</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>

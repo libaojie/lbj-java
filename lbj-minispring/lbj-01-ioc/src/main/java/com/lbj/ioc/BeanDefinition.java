@@ -1,4 +1,4 @@
-package com.lbj.beanfactory;
+package com.lbj.ioc;
 
 /**
  * @Classname BeanDefinition

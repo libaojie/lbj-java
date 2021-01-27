@@ -1,5 +1,5 @@
-import com.lbj.beanfactory.BeanDefinition;
-import com.lbj.beanfactory.BeanFactory;
+import com.lbj.ioc.BeanDefinition;
+import com.lbj.ioc.BeanFactory;
 import org.junit.Test;
 
 /**
