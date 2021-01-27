@@ -27,8 +27,8 @@ public class BeanFactoryTest {
             beanFactory.registerBeanDefinition(beanDefinitionEntry.getKey(), beanDefinitionEntry.getValue());
         }
 
-//        // 3.获取bean
-//        HelloWorldService helloWorldService = (HelloWorldService) beanFactory.getBean("helloWorldService");
-//        helloWorldService.helloWorld();
+        // 3.获取bean
+        HelloWorldService helloWorldService = (HelloWorldService) beanFactory.getBean("helloWorldService");
+        helloWorldService.helloWorld();
     }
 }

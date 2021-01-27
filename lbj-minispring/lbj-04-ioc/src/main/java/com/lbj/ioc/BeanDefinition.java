@@ -50,4 +50,11 @@ public class BeanDefinition {
         this.propertyValues = propertyValues;
     }
 
+    public void setPropertyValue(PropertyValue propertyValue){
+        if (this.propertyValues == null){
+            this.propertyValues = new PropertyValues();
+        }
+        propertyValues.addPropertyValue(propertyValue);
+    }
+
 }

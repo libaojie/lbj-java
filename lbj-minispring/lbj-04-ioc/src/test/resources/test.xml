@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans>
-
     <bean name="helloWorldService" class="HelloWorldService">
         <property name="text" value="Hello World!"></property>
     </bean>
-
 </beans>
