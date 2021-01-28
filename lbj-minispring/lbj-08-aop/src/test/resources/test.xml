@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean name="outputService" class="OutputService">
+        <property name="helloWorldService" ref="helloWorldService"></property>
+    </bean>
+
+    <bean name="helloWorldService" class="HelloWorldServiceImpl">
+        <property name="text" value="Hello World!"></property>
+        <property name="outputService" ref="outputService"></property>
+    </bean>
+
+    <bean name="beanInitializeLogger" class="BeanInitializeLogger">
+    </bean>
+
+</beans>
