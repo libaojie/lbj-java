@@ -33,7 +33,7 @@ public class AutowireCapableBeanFactory extends AbstractBeanFactory {
     }
 
     protected void applyPropertyValue(Object bean, BeanDefinition beanDefinition) throws Exception{
-        for (PropertyValue propertyValue : beanDefinition.getPropertyValues().getPropertyValues()){
+        for (PropertyValue propertyValue : beanDefinition.getPropertyValueList()){
             Field field = bean.getClass().getDeclaredField(propertyValue.getName());
             field.setAccessible(true);
             Object value = propertyValue.getValue();

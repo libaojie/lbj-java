@@ -1,5 +1,8 @@
 package com.lbj.ioc;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @Classname BeanDefinition
  * @Description bean的内容及元数据，保存在BeanFactory中，包装bean的实体
@@ -14,7 +17,7 @@ public class BeanDefinition {
     // 对象类型名称
     private String beanClassName;
     // 对象属性列表
-    private PropertyValues propertyValues;
+    private List<PropertyValue> propertyValueList;
 
     public BeanDefinition() {
     }
@@ -46,19 +49,16 @@ public class BeanDefinition {
         return this.beanClassName;
     }
 
-    public PropertyValues getPropertyValues(){
-        return this.propertyValues;
-    }
-
-    public void setPropertyValues(PropertyValues propertyValues){
-        this.propertyValues = propertyValues;
-    }
-
-    public void setPropertyValue(PropertyValue propertyValue){
-        if (this.propertyValues == null){
-            this.propertyValues = new PropertyValues();
+    public void setPropertyValue(PropertyValue propertyValue) {
+        if (this.propertyValueList == null) {
+            this.propertyValueList = new ArrayList<>();
         }
-        propertyValues.addPropertyValue(propertyValue);
+        propertyValueList.add(propertyValue);
+
+    }
+
+    public List<PropertyValue> getPropertyValueList() {
+        return propertyValueList;
     }
 
 }
