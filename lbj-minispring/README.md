@@ -23,7 +23,7 @@
     2、解决循环依赖问题
     
     
-## lbj-06-app
+## lbj-06-ioc
 
     1、创建ApplicationContext
     
