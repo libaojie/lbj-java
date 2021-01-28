@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean name="outputService" class="OutputService">
+        <property name="helloWorldService" ref="helloWorldService"></property>
+    </bean>
+
+    <bean name="helloWorldService" class="HelloWorldServiceImpl">
+        <property name="text" value="Hello World!"></property>
+        <property name="outputService" ref="outputService"></property>
+    </bean>
+
+    <bean name="beanInitializeLogger" class="BeanInitializeLogger">
+    </bean>
+
+    <bean id="timeInterceptor" class="TimerInterceptor"></bean>
+
+    <bean id="autoProxyCreator" class="AspectJAwareAdvisorAutoProxyCreator"></bean>
+
+    <bean id="aspectjAspect" class="AspectJExpressionPointcutAdvisor">
+        <property name="advice" ref="timeInterceptor"></property>
+        <property name="expression" value="execution(* *.*(..))"></property>
+    </bean>
+
+</beans>
