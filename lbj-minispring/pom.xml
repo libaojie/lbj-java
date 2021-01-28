@@ -18,6 +18,7 @@
         <module>lbj-04-ioc</module>
         <module>lbj-05-ioc</module>
         <module>lbj-06-app</module>
+        <module>lbj-07-aop</module>
     </modules>
 
 
