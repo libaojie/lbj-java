@@ -21,3 +21,8 @@
 
     1、注入引用类型属性
     2、解决循环依赖问题
+    
+    
+## lbj-06-app
+
+    1、创建ApplicationContext
