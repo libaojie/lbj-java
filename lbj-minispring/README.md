@@ -26,3 +26,7 @@
 ## lbj-06-app
 
     1、创建ApplicationContext
+    
+## lbj-07-aop
+
+    1、创建代理 AOP
