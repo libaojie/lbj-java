@@ -12,13 +12,13 @@
     <modules>
         <module>lbj-basics</module>
         <module>lbj-annotation</module>
-        <module>lbj-proxy</module>
         <module>lbj-thread</module>
         <module>lbj-synchronized</module>
         <module>lbj-volatile</module>
         <module>lbj-cas</module>
         <module>lbj-regular-expression</module>
         <module>lbj-minispring</module>
+        <module>lbj-dynamicproxy</module>
     </modules>
 
 
