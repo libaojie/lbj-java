@@ -13,6 +13,7 @@
 
     <modules>
         <module>lbj-lambda</module>
+        <module>lbj-string</module>
     </modules>
 
     <dependencies>

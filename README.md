@@ -7,6 +7,7 @@
 - [lbj-annotation](./lbj-annotation/README.md) Annotation 注解
 - [lbj-basics](./lbj-basics/README.md) 基础语法
     - [lbj-lambda](./lbj-basics/lbj-lambda/README.md) Lambda
+    - [lbj-string](./lbj-basics/lbj-string/README.md) String 字符串
 - [lbj-cas](./lbj-cas/README.md) CAS
 - [lbj-dynamicproxy](./lbj-dynamicproxy/README.md) 动态代理 JDK代理+CGlib
 - [lbj-minspring](./lbj-minspring/README.md) Spring核心功能的实现

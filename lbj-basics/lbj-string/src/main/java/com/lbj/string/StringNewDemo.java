@@ -1,4 +1,4 @@
-package com.lbj.a2.string;
+package com.lbj.string;
 
 /**
  * @description 测试Stringnew的位置
