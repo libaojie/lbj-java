@@ -1,4 +1,4 @@
-package com.lbj.leecode.recursion;
+package com.lbj.recursion;
 
 /**
  * @Classname ReverseString

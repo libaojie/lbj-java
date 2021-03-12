@@ -1,4 +1,4 @@
-package com.lbj.leecode.recursion;
+package com.lbj.recursion;
 
 import java.util.ArrayList;
 import java.util.List;
