@@ -17,6 +17,7 @@
         <module>lbj-string</module>
         <module>lbj-static</module>
         <module>lbj-object</module>
+        <module>lbj-operator</module>
     </modules>
 
     <dependencies>

@@ -1,4 +1,4 @@
-package com.lbj.a8.operator;
+package com.lbj.operator;
 
 /**
  * @Classname OperatorDemo
