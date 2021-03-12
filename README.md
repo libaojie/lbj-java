@@ -8,7 +8,7 @@
   
 - [lbj-basics](./lbj-basics/README.md) 基础语法
     - [lbj-lambda](./lbj-basics/lbj-lambda/README.md) Lambda
-    - [lbj-operator](./lbj-basics/lbj-operator/README.md) lbj-operator 操作符
+    - [lbj-operator](./lbj-basics/lbj-operator/README.md) 操作符
     - [lbj-static](./lbj-basics/lbj-static/README.md) Static 静态
     - [lbj-string](./lbj-basics/lbj-string/README.md) String 字符串
   

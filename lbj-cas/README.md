@@ -1,5 +1,8 @@
 # CAS
 
+- [退回首页](../README.md)
+
+
     cas号称无锁优化，也称自旋。全称：CompareAndSet，比较并且设定。
     
     cas(V, E, NewValue)
