@@ -1,9 +1,6 @@
-package com.lbj.a7.object;
+package com.lbj.object;
 
 import org.openjdk.jol.info.ClassLayout;
-
-import java.util.ArrayList;
-import java.util.List;
 
 
 /**

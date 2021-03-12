@@ -7,6 +7,7 @@
 - [lbj-annotation](./lbj-annotation/README.md) Annotation 注解
 - [lbj-basics](./lbj-basics/README.md) 基础语法
     - [lbj-lambda](./lbj-basics/lbj-lambda/README.md) Lambda
+    - [lbj-object](./lbj-basics/lbj-object/README.md) 查看类布局
     - [lbj-static](./lbj-basics/lbj-static/README.md) Static 静态
     - [lbj-string](./lbj-basics/lbj-string/README.md) String 字符串
 - [lbj-cas](./lbj-cas/README.md) CAS

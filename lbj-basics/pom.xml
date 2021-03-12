@@ -16,6 +16,7 @@
         <module>lbj-lambda</module>
         <module>lbj-string</module>
         <module>lbj-static</module>
+        <module>lbj-object</module>
     </modules>
 
     <dependencies>
