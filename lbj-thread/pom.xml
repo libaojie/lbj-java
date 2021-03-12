@@ -13,8 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>lbj-thread-create</module>
-        <module>lbj-thread-12</module>
         <module>lbj-threadpool-create</module>
+        <module>lbj-thread-1</module>
         <module>lbj-thread-2</module>
         <module>lbj-thread-3</module>
     </modules>
