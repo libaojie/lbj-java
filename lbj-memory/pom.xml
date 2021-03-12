@@ -9,22 +9,17 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lbj-basics</artifactId>
+    <artifactId>lbj-memory</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>lbj-lambda</module>
-        <module>lbj-string</module>
-        <module>lbj-static</module>
-        <module>lbj-operator</module>
+        <module>lbj-object</module>
+        <module>lbj-oom</module>
     </modules>
 
-    <dependencies>
-        <!-- 查看对象内存布局工具 -->
-        <dependency>
-            <groupId>org.openjdk.jol</groupId>
-            <artifactId>jol-core</artifactId>
-            <version>0.10</version>
-        </dependency>
-    </dependencies>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
 </project>

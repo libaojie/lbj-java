@@ -1,4 +1,4 @@
-package com.lbj.c1.memory.hashset;
+package com.lbj.oom.hashset;
 
 import java.util.HashSet;
 
