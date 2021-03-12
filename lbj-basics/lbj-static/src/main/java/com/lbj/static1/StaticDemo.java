@@ -1,4 +1,4 @@
-package com.lbj.a4.static1;
+package com.lbj.static1;
 
 /**
  * @Classname StaticDemo
