@@ -21,6 +21,8 @@
         <module>lbj-dynamicproxy</module>
         <module>lbj-leecode</module>
         <module>lbj-memory</module>
+        <module>lbj-tree</module>
+        <module>lbj-sample-tree</module>
     </modules>
 
 

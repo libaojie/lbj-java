@@ -1,4 +1,4 @@
-package com.lbj.b2.tree;
+package tree;
 
 /**
  * @Classname TreeNode
