@@ -1,4 +1,4 @@
-package com.lbj.b1.fibonacci;
+package com.lbj.fibonacci;
 
 /**
  * @Classname Fibonacci
