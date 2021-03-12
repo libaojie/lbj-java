@@ -1,4 +1,4 @@
-package com.lbj.a1.lambda;
+package com.lbj.lambda;
 
 public class LambdaDemo {
 
