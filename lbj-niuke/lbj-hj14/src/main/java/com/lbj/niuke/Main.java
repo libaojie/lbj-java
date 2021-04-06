@@ -1,5 +1,7 @@
 package com.lbj.niuke;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -14,14 +16,28 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int length = 0;
-        if (scanner.hasNextLine()){
+        if (scanner.hasNextLine()) {
             length = scanner.nextInt();
         }
-        String[] ret = new String[length];
-        int i = 0;
-        while (scanner.hasNextLine()){
-            ret[i] = scanner.nextLine();
+        ArrayList<String> ret = new ArrayList<>();
+        for (int i = 0; i < length; i++) {
+            String t = scanner.next();
+            for (int j = 0; j < i; j++) {
+                if (ret.get(j).compareTo(t) > 0) {
+                    ret.add(j, t);
+                    break;
+                }
+            }
+
+            if (ret.size() != i + 1) {
+                ret.add(t);
+            }
         }
-        System.out.print(ret);
+
+        scanner.close();
+
+        for (String s : ret) {
+            System.out.println(s);
+        }
     }
 }

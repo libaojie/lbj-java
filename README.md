@@ -26,6 +26,8 @@
   
 - [lbj-minspring](./lbj-minspring/README.md) Spring核心功能的实现
   
+- [lbj-niuke](./lbj-niuke/README.md) 牛客部分题目
+  
 - [lbj-regular-expression](./lbj-regular-expression/README.md) 正则表达式
   
 - [lbj-synchronized](./lbj-synchronized/README.md) Synchronized
