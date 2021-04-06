@@ -22,6 +22,7 @@
         <module>lbj-leecode</module>
         <module>lbj-memory</module>
         <module>lbj-tree</module>
+        <module>lbj-niuke</module>
     </modules>
 
 
