@@ -24,6 +24,7 @@
         <module>lbj-tree</module>
         <module>lbj-niuke</module>
         <module>lbj-queue</module>
+        <module>lbj-lock</module>
 
     </modules>
 
