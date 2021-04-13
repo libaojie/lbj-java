@@ -23,6 +23,7 @@
         <module>lbj-memory</module>
         <module>lbj-tree</module>
         <module>lbj-niuke</module>
+        <module>lbj-queue</module>
 
     </modules>
 

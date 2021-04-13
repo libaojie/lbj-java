@@ -9,20 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lbj-thread</artifactId>
+    <artifactId>lbj-queue</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>lbj-thread-create</module>
-        <module>lbj-threadpool-create</module>
-        <module>lbj-thread-1</module>
-        <module>lbj-thread-2</module>
-        <module>lbj-thread-3</module>
-        <module>lbj-thread-future</module>
-        <module>lbj-wait</module>
-        <module>lbj-join</module>
-        <module>lbj-thread-threadpoolexecutor</module>
-        <module>lbj-thread-excutors</module>
+        <module>lbj-disruptor</module>
     </modules>
 
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
 
 </project>
