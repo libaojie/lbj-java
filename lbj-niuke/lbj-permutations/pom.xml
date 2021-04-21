@@ -3,25 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>lbj-java</artifactId>
+        <artifactId>lbj-niuke</artifactId>
         <groupId>com.lbj</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lbj-niuke</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>lbj-hj11</module>
-        <module>lbj-hj12</module>
-        <module>lbj-hj13</module>
-        <module>lbj-hj14</module>
-        <module>lbj-hj1</module>
-        <module>lbj-hj3</module>
-        <module>lbj-hj17</module>
-        <module>lbj-hj89</module>
-        <module>lbj-permutations</module>
-    </modules>
+    <artifactId>lbj-permutations</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

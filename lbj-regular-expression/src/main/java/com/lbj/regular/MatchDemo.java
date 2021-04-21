@@ -79,7 +79,5 @@ public class MatchDemo {
             System.out.println(matcher6.group("name2"));
             System.out.println("**");
         }
-
-
     }
 }

@@ -39,6 +39,7 @@
     - [HJ14-字符串排序](./lbj-niuke/lbj-hj14/README.md) Y 中等
     - [HJ17-坐标移动](./lbj-niuke/lbj-hj17/README.md) Y 困难
     - [HJ89-24点运算](./lbj-niuke/lbj-hj89/README.md) Y 困难
+    - [lbj-permutations 排列组合](./lbj-niuke/lbj-permutations/README.md) 排列组合
   
 - [lbj-regular-expression](./lbj-regular-expression/README.md) 正则表达式
   
