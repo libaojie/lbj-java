@@ -28,7 +28,7 @@ public class CombinationDemo {
             numb.add(i);
         }
 
-        function(numb, new ArrayList<>(), r);
+        function(numb, new ArrayList<>(), r, 0);
         System.out.println("C(" + r + "," + n + ")全组合数情况,共" + count + "种");
     }
 
@@ -39,7 +39,7 @@ public class CombinationDemo {
      * @param target
      * @param size
      */
-    private static void function(List<Integer> source, List<Integer> target, int size) {
+    private static void function(List<Integer> source, List<Integer> target, int size, int cur) {
         if (target.size() == size) {
             // 拼出一种数字组合结果
             for (int i : target) {
@@ -52,12 +52,12 @@ public class CombinationDemo {
         List<Integer> copySource = null;
         List<Integer> copyTarget = null;
 
-        for (int i = 0; i < source.size(); i++) {
+        for (int i = cur; i < source.size(); i++) {
             copySource = new ArrayList<>(source);
             copyTarget = new ArrayList<>(target);
             copyTarget.add(copySource.get(i));
             copySource.remove(i);
-            function(copySource, copyTarget, size);
+            function(copySource, copyTarget, size, i);
         }
     }
 
