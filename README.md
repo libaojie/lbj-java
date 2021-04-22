@@ -18,6 +18,7 @@
   
 - [lbj-leecode](./lbj-data-struct/README.md) leecode部分题
     - [lbj-fibonacci](./lbj-leecode/lbj-fibonacci/README.md) 斐波那契数列
+    - [lbj-nfriends](./lbj-leecode/lbj-nfriends/README.md) n个小朋友分组
     - [lbj-recursion](./lbj-leecode/lbj-recursion/README.md) 递归
 
 - [lbj-lock](./lbj-lock/README.md) lock锁相关
