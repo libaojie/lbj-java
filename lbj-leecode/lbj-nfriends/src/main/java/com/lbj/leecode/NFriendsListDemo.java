@@ -15,15 +15,15 @@ public class NFriendsListDemo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int count = scanner.nextInt();
-        ArrayList ret = function(count);
+        ArrayList ret = function(count-1);
         System.out.println(ret);
     }
 
     private static ArrayList function(int count){
         ArrayList ret = new ArrayList();
-        if (count == 1){
+        if (count == 0){
             ArrayList<String> team = new ArrayList<>();
-            team.add("1");
+            team.add("0");
             ret.add(team);
             return ret;
         }
