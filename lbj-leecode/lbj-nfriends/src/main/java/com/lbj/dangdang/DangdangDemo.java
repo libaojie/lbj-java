@@ -26,22 +26,26 @@ public class DangdangDemo {
     static ArrayList<Team> teamList = new ArrayList();
 
     public static void main(String[] args) {
+        System.out.println("当当优惠说明：");
+        System.out.println("每满100减50 实付每单又可叠加100减10或150减30的券。");
+        System.out.println("不足49加收6元运费。");
         Scanner scanner = new Scanner(System.in);
         System.out.print("请输入商品总数量：");
         int count = scanner.nextInt();
         for (int i = 0; i < count; i++) {
-            System.out.print("请第"+(i+1)+"件商品价格：");
+            System.out.print("请第" + (i + 1) + "件商品价格：");
             prices.add(scanner.nextFloat());
         }
         scanner.close();
         // 全排列分批
         function(count, 0, 0);
         System.out.println("共" + numb + "种情况！");
+        System.out.println();
         System.out.println("最优惠方案：");
         for (int i = 0; i < teamList.size(); i++) {
             teamList.get(i).print();
         }
-        System.out.println("共花费：" + sum);
+        System.out.println("共分【"+teamList.size()+"】单，共花费：【" + sum+"】元");
     }
 
     /**
@@ -100,6 +104,8 @@ public class DangdangDemo {
         float oldPrice = 0f;
         // 打折后价格
         float newPrice = 0f;
+        // 是否有运费
+        boolean isFare = false;
         // 商品索引
         ArrayList<Integer> indexList = new ArrayList<>();
         // 价格索引
@@ -124,10 +130,20 @@ public class DangdangDemo {
             } else if (newPrice > 100) {
                 newPrice -= 10;
             }
+
+            // 加运费
+            if (newPrice < 49) {
+                newPrice += 6;
+                isFare = true;
+            }
         }
 
         public void print() {
             System.out.println("第【" + index + "】单，原价：【" + oldPrice + "】，优惠后：【" + newPrice + "】");
+            if (isFare){
+                System.out.println("**此单实付不满49，加收6元运费**");
+            }
+
             for (int i = 0; i < indexList.size(); i++) {
                 System.out.println((i + 1) + ".第【" + (indexList.get(i) + 1) + "】件，价格为【" + priceList.get(i) + "】");
             }
