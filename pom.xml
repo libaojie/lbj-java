@@ -25,6 +25,7 @@
         <module>lbj-niuke</module>
         <module>lbj-queue</module>
         <module>lbj-lock</module>
+        <module>lbj-saas</module>
 
     </modules>
 

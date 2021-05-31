@@ -44,6 +44,9 @@
   
 - [lbj-regular-expression](./lbj-regular-expression/README.md) 正则表达式
   
+- [lbj-saas](./lbj-saas/README.md) 基于阿里云saas示例Demo
+    - [lbj-saas-fc](./lbj-saas-fc/README.md) Saas java事件函数
+  
 - [lbj-synchronized](./lbj-synchronized/README.md) Synchronized
   
 - [lbj-thread](./lbj-thread/README.md) Thread线程
