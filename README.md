@@ -46,6 +46,7 @@
   
 - [lbj-saas](./lbj-saas/README.md) 基于阿里云saas示例Demo
     - [lbj-saas-fc](./lbj-saas-fc/README.md) Saas java事件函数
+    - [lbj-saas-http](./lbj-saas-http/README.md) Saas java HTTP触发
   
 - [lbj-synchronized](./lbj-synchronized/README.md) Synchronized
   
